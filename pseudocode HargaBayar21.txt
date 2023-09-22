@@ -1,0 +1,26 @@
+Algoritma : HargaBayar21
+{dibaca harga, jumlah, jumlahHalamanBuku, merkBuku, disc, total, bayar,jmlDisc dari piranti masukan. Hitunglah jumlah diskon dan jumlah yang harus dibayar}
+
+Deklarasi:
+harga, jumlah, jumlahHalamanBuku : int
+merkBuku : String
+disc, total, bayar, jmlDisc : double
+
+Deskripsi:
+1. print "Masukkan merk buku:" 
+2. read merkBuku
+3. print "Masukkan jumlah halaman buku:"
+4. read jumlahHalamanBuku
+5. print "Masukkan harga barang yang dibeli"
+6. read harga
+7. print "Masukkan Jumlah jumlah barang yang dibeli"
+8. read jumlah
+9. print "Masukkan besaran diskon:"
+10. read disc
+11. total = harga * jumlah
+12. jmlDisc = total * disc
+13. bayar = total - jmlDisc
+14. print "Diskon yang anda dapatkan adalah" 
+15. prinr jmlDisc
+16. print "Diskon yang anda dapatkan adalah" 
+17. print bayar

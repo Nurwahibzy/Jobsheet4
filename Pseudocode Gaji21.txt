@@ -1,0 +1,18 @@
+Algoritma : Gaji21
+{dibaca jmlMasuk, JmlTdkMasuk, TotGaji, gaji , potGaji dari piranti masukan. Hitunglah Gaji yang diterima}
+
+Deklarasi:
+jmlMasuk, JmlTdkMasuk, TotGaji, gaji , potGaji : int
+
+Deskripsi:
+1. print "Masukkan Jumlah Hari Masuk Kerja anda:"
+2. read jmlMasuk
+3. print "Masukkan Jumlah Hari Tidak Masuk Kerja Anda:" 
+4. read jmlTdkMasuk
+5. print "Masukkan Besaran Gaji Anda"
+6. read gaji
+7. print "Masukkan Potongan Gaji Anda"
+8. read potGaji
+9. TotGaji = (jmlMasuk*gaji)+(JmlTidakMasuk*potGaji)
+10. print "Gaji yang anda terima adalah:" 
+11. print TotGaji

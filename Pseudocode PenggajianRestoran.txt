@@ -1,0 +1,25 @@
+Algoritma : PenggajianPegawai16
+{dibaca nama pegawai, jabatan, bulan gaji, jumlah jam kerja dan jumlah jam lembur dari piranti masukan. Hitunglah total gaji}
+
+Deklarasi : 
+nama_pegawai, jabatan, bulan gaji               		   : String
+jumlah_jam_kerja, jumlah_jam_lembur, total_jam_kerja               : int
+upah = 15700, total_jam_lembur, total_gaji, gaji_pokok = 2000000   : int
+
+Deskripsi : 
+
+1. print “Masukkan Nama Lengkap Anda”
+2. read nama_pegawai
+3. print “Masukkan Jabatan Anda”
+4. read jabatan
+5. print “Masukkan Gaji Bulan Yang Akan Diambil”
+6. read bulan_gaji
+7. print “Masukkan Jumlah Jam Kerja Anda”
+8. read jumlah_jam_kerja
+9. print “Masukkan Jumlah Jam Lembur Anda Jika Ada”
+10. read jumlah_jam_lembur
+11. total_jam_kerja = jumlah_jam_kerja*26
+12. total_jam_lembur = jumlah_jam_lembur*upah
+13. total_gaji = gaji_pokok+total_jam_kerja+total_jam_lembur
+14. print “Total Gaji Yang Anda Terima Adalah”
+15. print total_gaji
